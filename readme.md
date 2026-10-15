@@ -15,10 +15,11 @@ docker exec -it de_airflow airflow dags trigger crypto_batch_transformation_pipe
 ## Option 2: Login to airflow web UI to trigger the automated Spark batch transformation pipeline
 
 ### Step 1: Get the username and password
-
+#### Using Linux
 ```bash
 docker logs de_airflow 2>&1 | grep "password"
 ```
+#### Using Windows
 ```powershell
 docker logs de_airflow 2>&1 | Select-String "password"
 ```
