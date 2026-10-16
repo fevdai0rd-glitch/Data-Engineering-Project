@@ -26,3 +26,9 @@ docker logs de_airflow 2>&1 | Select-String "password"
 ### Step 2: Open a webbrowser and enter the follow URL
 
 http://localhost:8082/
+
+
+## Below is a look at the entire architecture
+
+![Architecture Diagram](images/Data_Engineering_Diagram.png)
+
